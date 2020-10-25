@@ -2,3 +2,17 @@
  ../：代表文件所在的父级目录
  ../../：代表文件所在的父级目录的父级目录
  /：代表文件所在的根目录
+ 1、*.html 文件跟 *.jpg 文件(f盘)在不同目录下：
+<img src="file:///f:/*.jpg" width="300" height="120"/>
+2、*.html 文件跟 *.jpg 图片在相同目录下：
+<img src="*.jpg" width="300" height="120"/>3、*.html 文件跟 *.jpg 图片在不同目录下：
+a、图片 *.jpg 在 image 文件夹中，*.html 跟 image 在同一目录下：
+<img src="image/*.jpg/"width="300" height="120"/>
+b、图片 *.jpg 在 image 文件夹中，*.html 在 connage 文件夹中，image 跟 connage 在同一目录下：
+<img src="../image/*.jpg/"width="300" height="120"/>
+4、如果图片来源于网络，那么写绝对路径：
+<img src="http://static.runoob.com/images/runoob-logo.png" width="300" height="120"/>
+
+
+href 表示超文本引用（hypertext reference），在 link和a 等元素上使用。src 表示来源地址，在 img、script、iframe 等元素上。
+src 的内容，是页面必不可少的一部分，是引入。href 的内容，是与该页面有关联，是引用。区别就是，引入和引用。
