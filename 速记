@@ -4,3 +4,14 @@ iframe语法:
 <iframe src="URL"></iframe>
 该URL指向不同的网页。
 使用iframe来显示目标链接页面
+
+
+HTML 表单
+表单是一个包含表单元素的区域。
+表单元素是允许用户在表单中输入内容,比如：文本域(textarea)、下拉列表、单选框(radio-buttons)、复选框(checkboxes)等等。
+表单使用表单标签 <form> 来设置:
+<form>
+.
+input 元素
+.
+</form>
