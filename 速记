@@ -1,0 +1,6 @@
+HTML 框架
+通过使用框架，你可以在同一个浏览器窗口中显示不止一个页面。
+iframe语法:
+<iframe src="URL"></iframe>
+该URL指向不同的网页。
+使用iframe来显示目标链接页面
