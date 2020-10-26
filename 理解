@@ -5,3 +5,24 @@ HTML的方法，是通过标签包裹内容的方法对里面的内容进行创�
 应该通过大量的练习就能掌握的方法，对于理解的要求不是很高
 
 对于HTML和CSS的大概原理懂了，剩余的练习进阶等到学完python再来吧
+
+CSS的语句是放在<body>前面的,<body>的内容是调用css的语句标签
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title> 
+<style>
+#para1
+{
+	text-align:center;
+	color:red;
+} 
+</style>
+</head>
+
+<body>
+<p id="para1">Hello World!</p>
+<p>这个段落不受该样式的影响。</p>
+</body>
+</html>
