@@ -1,0 +1,40 @@
+<a> 标签定义超链接，用于从一张页面链接到另一张页面。
+<a> 元素最重要的属性是 href 属性，它指示链接的目标。
+
+提示：如果不使用 href 属性，则不可以使用如下属性：download, hreflang, media, rel, target 以及 type 属性。
+
+提示：被链接页面通常显示在当前浏览器窗口中，除非您规定了另一个目标（target 属性）。
+
+提示：请使用 CSS 来设置链接的样式。
+
+<a> 标签的 rel 属性用于指定当前文档与被链接文档的关系。
+
+用于 <a> 标签的可选属性 rel 和 rev 分别表示源文档与目标文档之间正式的关系和方向。
+rel 属性指定从源文档到目标文档的关系，而 rev 属性则指定从目标文档到源文档的关系。
+这两种属性可以在 <a> 标签中同时使用。
+
+<a href="part_12.html" rel="next" rev="prev">
+
+语法
+<a rel="value">
+
+alternate	文档的可选版本（例如打印页、翻译页或镜像）。
+stylesheet	文档的外部样式表。
+start	集合中的第一个文档。
+next	集合中的下一个文档。
+prev	集合中的前一个文档。
+contents	文档目录。
+index	文档索引。
+glossary	文档中所用字词的术语表或解释。
+copyright	包含版权信息的文档。
+chapter	文档的章。
+section	文档的节。
+subsection	文档的子段。
+appendix	文档附录。
+help	帮助文档。
+bookmark	相关文档。
+ 	 
+nofollow	Google 使用 "nofollow"，用于指定 Google 搜索引擎不要跟踪链接。
+licence	 
+tag	 
+friend	 
